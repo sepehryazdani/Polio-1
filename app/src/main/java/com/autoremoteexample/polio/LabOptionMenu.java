@@ -400,7 +400,7 @@ public class LabOptionMenu extends AppCompatActivity implements View.OnClickList
 
         mDialog.setCancelable(false);
 
-        mDialog.setMessage("Has sample elution just begun?");
+        mDialog.setMessage("Are you beginning sample elution?");
         mDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
 
