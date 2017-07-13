@@ -290,7 +290,7 @@ public class LabOptionMenu extends AppCompatActivity implements View.OnClickList
 
         mDialog.setCancelable(false);
 
-        mDialog.setMessage("Has the sample been recieved and is currently processing in the laboratory?");
+        mDialog.setMessage("Has the sample been received in the laboratory?");
         mDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         scanNow(view);
